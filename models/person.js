@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+//person Schema
 const persondata = new mongoose.Schema({
   name: {
     type: String,
